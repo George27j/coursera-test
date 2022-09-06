@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Proyecto en desarrollo 1.0</title>
+    <link rel="stylesheet" href="./Sytles.css"/>
+</head>
+
+<body>
+    <header>
+        <h1 id="Titulo">Proyecto en desarrollo. Version 1.0</h1>
+    </header>
+
+    <nav>
+        <ul>
+         <li class="Lenguaje CSS">CSS</li>
+         <li class="Lenguaje HTML">HTML</li>
+        </ul> 
+     </nav>
+
+    <section>
+        <article>
+            <p>Aplicando los conocimientos de HTML y CSS</p>
+            <ul> <!--Darle una class a varios elementos para modificarlo luego con CCS o JS-->
+                <li class="Saludos"><i>Bonjour</i></li>
+                <li class="Saludos"><i>Hello</i></li>  
+                <!--Listas ordenadas por puntos / <i> para poner letra cursiva-->   
+            </ul>
+            <ol id="Despedidas"><!--Darle un id a un elemento para modificarlo luego con CCS o JS-->
+                <li ><u>Au revoir</u></li>
+                <li><u>Good Bye</u></li>
+                <!--<u> para subrayar texto--> 
+                <li>
+                    <ol>
+                        <li style="list-style-type:lower-roman"><b>Manger</b></li>
+                        <li style="list-style-type:lower-roman"><b>Prender</b></li>
+                        <li style="list-style-type:lower-roman"><blockquote>Avoir</blockquote></li>
+                        <li style="list-style-type:lower-roman"><blockquote>Parler</blockquote></li>
+                        <!--Listas al interior de otras y con un numerador diferente-->
+                        <!--<b> para resaltar texto / <blockquote> para citar el texto-->
+                    </ol>
+                </li>
+                <!--Listas ordenadas por numero-->      
+            </ol>  
+            <a target="_blank" href="https://alianzafrancesa.org.co/bogota/">Alliance Francaise</a><br>
+            <!--Hipervinculo a una pagina-->
+            <a href="mailto:Jorge27j10@gmail.com">Email de contacto</a><br>
+            <!--Hipervinculo para enviar un email-->
+            <a href="#Precios">Consulta nuestros precios</a>
+            <!--Hipervinculo para ir a una seccion especifica de la pagina-->
+        </article>
+
+        <article>
+            <figure>
+                <img src="./Imgs_Videos/Alliance francaise.png" alt="Logo">
+                <!--Agregar una imagen-->
+                <figcaption>Logo Alliance Francaise</figcaption>
+                <!--Descripcion de la imagen-->
+            </figure>
+            <figure>
+                <img src="./Imgs_Videos/Campus france.png" alt="Logo">
+                <!--Agregar una imagen-->
+                <figcaption>Logo Campus France</figcaption>
+                <!--Descripcion de la imagen-->
+            </figure>
+            <video src="./Imgs_Videos/Joe Dassin  Champs  Elysées Lyrics.mp4" controls preload="auto"></video>
+            <!--Agregar un video descargado-->
+            <br>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/PkioQx0D44M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <!--Insertar un video de otro sitio web-->
+            <br>
+            <!--Agregar espacios entre elementos en el HMTL-->        
+        </article>
+        
+
+        <article>
+            <form action="">
+                <label for="Nombre">
+                    <span>Dime tu nombre</span>  
+                    <input type="text" id="Nombre" name="Nombre" placeholder="Tu nombre" required/><br><br>
+                </label>
+                <!--Formulario para obtener el nombre-->
+                <label for="Birthday">
+                    <span>Fecha inicio del curso</span> 
+                    <input type="date" id="Birthday" name="Birthday" required/><br><br> 
+                </label>
+                <!--Formulario para obtener una fecha-->
+                <label for="Horario">
+                    <span>Horario de clase</span> 
+                    <input type="time" id="Horario" name="Horario" required/><br><br> 
+                </label>
+                <!--Formulario para obtener una hora-->
+                <label for="Sede">
+                    <span>Seleccione la sede</span> 
+                    <input list="Sede" name="Sede" placeholder="Sede"/>
+                    <datalist id="Sede">
+                        <option value="Cedritos" ></option>
+                        <option value="Chico" ></option>
+                        <option value="Centro" ></option>
+                    </datalist>
+                    <!--Lista de opciones para escoger-->        
+                </label>
+                <br>
+                <input type="Submit" value="Enviar">
+                <br>
+                <!--Boton para enviar respuestas-->
+                <button type="reset">Reiniciar</button>
+                <!--Boton para resetear el formulario-->
+            </form>
+            <br>
+        </article>
+
+        <article id="Precios">
+            <table id="Tabla_precios">
+                <thead>
+                    <tr>
+                        <th>Curso</th>
+                        <th>Intensidad</th>
+                        <th>Precio</th>
+                    </tr>
+                </thead>
+                <!--Encabezados de una tabla-->
+                <tbody>
+                    <tr>
+                        <td>General</td>
+                        <td>3 dias</td>
+                        <td>$120.00</td>
+                    </tr>
+                    <tr>
+                        <td>Intensivo semanal</td>
+                        <td>5 dias</td>
+                        <td>$190.00</td>
+                    </tr>
+                </tbody>
+                <!--Contenido por fila de la tabla-->
+            </table>
+        </article>
+    </section>
+    <footer id="Final">
+        <a target="_blank" href="https://platzi.com/blog/etiquetas-html-debes-conocer/?utm_source=google&utm_medium=cpc&utm_campaign=17418244234&utm_adgroup=&utm_content=&gclid=Cj0KCQjwhqaVBhCxARIsAHK1tiMlwNUxczCkuYrlXsa9d5PBMTMU96qewneaqzfZSLMcep9ya8nGr9gaAm_TEALw_wcB&gclsrc=aw.ds">Platzi comandos html</a><br>
+        <a target="_blank" href="https://www.w3schools.com/default.asp">W3schools web</a><br>
+        <a target="_blank" href="https://oregoom.com/html/">Oregoom html</a>
+    </footer>
+</body>
+</html>
+ 

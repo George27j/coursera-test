@@ -1,0 +1,138 @@
+body{
+    background-image: url(./Imgs/Fondo\ pantalla\ 2.0.jpg);
+    background-repeat: repeat;
+    margin-left: 0;
+    margin-right: 0; 
+    margin-bottom: 0;   
+}
+/*Termina la parte de la imagen en background del html*/
+
+#Header{
+    background-color: #240046;
+    opacity: 0.9;
+    color: white;
+    text-align: center;
+    padding-bottom: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-style: inset;
+    border-top-color: black;
+    border-top-width: 5px;
+}
+
+#Inicial{
+    display: inline-block;
+    font-weight: bold;
+    padding: 10px 250px;
+}
+/*Termina el titular de la pagina*/
+
+#Navegación{
+    background-color: #240046;
+    opacity: 0.9;
+    color: white;
+    height: 40px;
+    text-align: center;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-style: inset;
+    border-bottom-color: black;
+    border-bottom-width: 5px;
+}
+
+#Barra{
+    display: inline-block;
+    padding: 0px 50px;
+    font-weight: bold;
+    text-decoration: none;
+}
+/*Termina la parte de navegacion*/
+
+#Main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+#Principal{
+    height: 500px ;
+    width: 940px ;
+    border: solid rgb(243, 207, 30) 10px;
+    border-radius: 10px;
+} /*Modifica el tamaño de la imagen main*/
+/*Termina la parte de main (Imagen principal)*/
+
+#Final{
+    height: 500px;
+    width: 940px;
+    background-image: url(./Imgs/Logo\ Fondo.jpg);
+    background-repeat: repeat;
+    border: solid grey  10px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+#Presentacion{
+    color: white;
+    font-size: 18px;
+    text-align: justify;
+    height: 225px;
+    width: 600px;
+    padding-left: 50px;
+    
+}
+
+#Consulta{
+    font-size: 35px;
+    height: 50px;
+    width: 500px;
+    padding-left: 150px;
+}
+/*Termina la presentacion final*/
+
+#Pie_Pagina{
+    background-color: #240046;
+    height: 120px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-style: inset;
+    border-top-color: black;
+    border-top-width: 5px;
+}
+
+footer div{
+    width: 940px;
+    margin: 0 auto;
+}
+
+footer div img{
+    height: 50px ;
+    width: 50px ;
+    float: right;
+    padding-top: 35px;
+    padding-right: 20px;
+}
+
+footer p{
+    width: 940px;
+    margin: 0 auto;
+    color: white;
+    padding-top: 50px;
+
+}
+/*Termina el footer de la pagina web*/
+
+a:link{
+    color: white;
+}
+a:visited{
+    color: white;
+}
+a:hover{
+    color:rgb(243, 207, 30);
+}
+a:active{
+    color:rgb(243, 207, 30);
+}
+/*Selecciona el color de los links, al pinchar, colocar encima*/
+
+

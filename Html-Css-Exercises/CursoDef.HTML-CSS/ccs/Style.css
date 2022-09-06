@@ -1,0 +1,43 @@
+.Titulo{
+  color: black; 
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+.enunciados{
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+  text-align: center;
+  border: 5px solid black;
+  background-color:aquamarine;
+  list-style: none;
+  padding-inline-start: 0%;
+}
+.perro{
+  width: 200px;
+  border-radius: 30%;
+}
+.desc_perro{
+  color: white;
+  font-size: small;
+  font-family: 'Times New Roman', Times, serif;
+}
+.Listas{
+  background-color: black;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  padding-left: 0;
+}
+.Lista_item{
+  display: inline-block;
+  padding: 5px;
+}
+.Lista_item:hover{
+  color: blue;
+}
+.Lista_item:active{
+  color: red
+}
+.Lista_item::after{
+  content: " / ";
+}

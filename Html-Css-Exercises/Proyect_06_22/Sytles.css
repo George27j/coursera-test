@@ -1,0 +1,67 @@
+#Titulo{
+    color: blueviolet;
+}
+/*# + ID para especificar el ID que debe modificar en el HTML */
+
+li.Saludos{
+    color:blue;
+}
+/*. + Class para especificar la class que debe modificar en el HTML */
+
+li.Lenguaje.CSS{
+    color:tomato;
+}
+li.Lenguaje.HTML{
+    color:green;
+}
+/*Para especificar un elemento especifico en una clase*/
+
+article ol{
+    color:brown
+}
+/*Especificar un elemento dentro de otro*/
+
+#Tabla_precios{
+    border-style: outset;
+    border-color: blue;
+    border-radius: 5px;
+    border-width: 2px;
+}
+/*Aplicar un estilo de bordes*/
+
+/**{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+}
+Aplicar un formato a todos los elementos del HTML*/
+
+/*
+    color: #ff0000; 
+    Esta forma se llama exagecimal y permite combinar colores con 3 (Rojo,Verde,Azul)
+    Los 2 primeros digitos son Rojo, 3-4 son verde y 5-6 azul
+*/
+
+/*
+    color: rgb(255, 0, 255)
+    Esta forma es similar a la anterior. Permite combinar de 0 a 255 (Mas intenso el color)
+    El primero (Rojo), segundo (Verde) y tercero (Azul)
+*/
+
+#Final{
+    /*background-color: rgba(0, 0, 255, 0.2); Color del fondo*/    
+    /*background-image: url("./Imgs_Videos/Golden\ pequeña.jpg");*/
+    /*background-repeat:repeat-y; Si se considera repetir o no la imagen*/
+    /*background-position: right bottom; Position de la imagen en el fondo (Top - Center - Bottom)*/
+    /*background-size: 200px 300px; Tamaño del fondo de la imagen (Ancho - Alto)*/
+    height: 600px ;
+    width: 400px ;    
+    background: rgba(0, 0, 255, 0.2) url(./Imgs_Videos/Golden\ pequeña.jpg) repeat-y right bottom / 200px 320px;
+    
+    /*opacity: 0.7; Opacidad de todos los elementos internos*/ 
+    margin: 30px; /*Margen externo del elemento (Top right bottom left)*/
+    border: solid 10px black; /*Margen intermedio entre margin y padding*/
+    padding: 15px; /*Margen interno del elemento (Top right bottom left)*/
+    overflow:hidden; /*Permite determinar que hacer con un elemento si sale del recuadro (Visible = se ve por fuera) 
+    (scroll = permite movilizar en el recuadro para verlo completo) (hidden = esconde lo que queda por fuera)*/
+    outline: solid 10px red;
+}
