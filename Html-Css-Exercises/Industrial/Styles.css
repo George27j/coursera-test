@@ -80,11 +80,14 @@ body{
     padding-left: 50px;
     
 }
+#Consulta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 #Consulta_link{
-    font-size: 35px;
-    height: 50px;
-    width: 500px;
+    font-size: 20px;
 }
 /*Termina la presentacion final*/
 
