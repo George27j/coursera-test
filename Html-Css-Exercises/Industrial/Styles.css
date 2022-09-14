@@ -50,14 +50,16 @@ body{
 
 #Main{
     width: 940px;
+    height: 520px;
     margin: 0 auto;
+    box-sizing: border-box;
+    border: solid rgb(243, 207, 30) 10px;
+    border-radius: 10px;
 }
 
 #Principal{
     height: 500px ;
-    width: 940px ;
-    border: solid rgb(243, 207, 30) 10px;
-    border-radius: 10px;
+    width: 920px ;
 } /*Modifica el tamaño de la imagen main*/
 /*Termina la parte de main (Imagen principal)*/
 
@@ -69,6 +71,7 @@ body{
     border: solid grey  10px;
     border-radius: 10px;
     margin: 0 auto;
+    box-sizing: border-box;
 }
 
 #Presentacion{
