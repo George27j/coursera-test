@@ -55,7 +55,6 @@ body{
     width: 940px;
     height: 520px;
     margin: 0 auto;
-    box-sizing: border-box;
     border: solid rgb(243, 207, 30) 10px;
     border-radius: 10px;
 }
