@@ -1,28 +1,58 @@
+
+section{
+    background-color: aqua;
+    height: 580px;
+    padding: 0;
+    position: relative;
+} /*La seccion que contiene los recuadros e imagenes*/
 p{
-    height: 100px;
-    width: 200px;
-    border: 10px black solid;
-}
+    height: 120px;
+    width: 40%;
+    box-sizing: border-box;
+    margin: 12.5px;
+} /*Tamaño de los recuadros (P)*/
+
+img{
+    height:100px;
+    width: 100px;
+    margin: 12.5px;
+} /*Tamaño de las imagenes*/
 
 #p1{
     border: 10px red solid;
     float: right;
-}
+} /*Recuadro al lado derecho*/
 
 #p2{
     border: 10px green solid;
     float: left;
     clear: both;
-}
+}/*Recuadro a la izquierda, no se sube porque clear evita que p1 tenga elementos al lado*/
 
 #p3{
     border: 10px blue solid;
     float: right;
     clear: both;
-}
+}/*Recuadro a la derecha, no se sube porque clear evita que p2 tenga elementos al lado*/
 
-#p4{
+#img_4{
     border: 10px yellow solid;
-    float:right;
-    clear:right;
-}
+    float:left;
+}/*Imagen a la izquierda, sube a ocupar el espacio que deja p3 al moverse a la derecha*/
+
+#img_5{
+    border: 10px grey solid;
+    position: relative;
+    top: 12.5px;
+    left: 12.5px;
+    margin:0px;
+}/*Imagen con posicion relativa, a 12.5px de la parte superior y 12.5px de la izquierda, pasa a ocupar el espacio dejado por p1*/
+
+#img_6{
+    border: 10px purple solid;
+    position: absolute;
+    bottom: 12.5px;
+    right: 12.5px;
+    margin: 0px;
+}/*Imagen con posicion absoluta, a 12.5px de la parte inferior y 12.5px de la derecha, respecto al elemento padre con posicion relativa (Section)*/
+
