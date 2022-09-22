@@ -1,0 +1,28 @@
+p{
+    height: 100px;
+    width: 200px;
+    border: 10px black solid;
+}
+
+#p1{
+    border: 10px red solid;
+    float: right;
+}
+
+#p2{
+    border: 10px green solid;
+    float: left;
+    clear: both;
+}
+
+#p3{
+    border: 10px blue solid;
+    float: right;
+    clear: both;
+}
+
+#p4{
+    border: 10px yellow solid;
+    float:right;
+    clear:right;
+}
